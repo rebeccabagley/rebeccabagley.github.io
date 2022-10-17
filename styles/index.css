@@ -3,13 +3,14 @@ body {
     background: -webkit-linear-gradient(#feebe2, #ebb3ba);
     background: -moz-linear-gradient(#feebe2, #ebb3ba);
     background: linear-gradient(#feebe2, #ebb3ba);
+    font-family: sans-serif;
 }
 
 .body-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
 }
 
 .page-navigation-container {
@@ -19,7 +20,8 @@ body {
 }
 
 .page-navigation-item {
-    margin: 20px;
+    /* margin: 20px; */
+    margin: 20px 50px;
 }
 
 .menu-container {
@@ -157,22 +159,55 @@ body {
 }
 
 .hero-image-container {
-    
+  margin: 20px 50px;
 }
 
 .hero-image {
+  position: relative;
+}
 
+.hero-image img {
+  max-width: 100%;
 }
 
 .hero-image-floating-text {
-    /* position: absolute; */
+    /* position: absolute;
+    top: 50px;
+    right: 0px; */
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    max-width: 350px;
+}
+
+.hero-image-floating-text .floating-text-header {
+  font-family: baskerville;
+  color: #6d0939;
+  font-size: 41px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.hero-image-floating-text .floating-text-subject {
+  font-family: 'Open Sans';
+  line-height: 35px;
+  font-size: 22px;
 }
 
 .portfolio-preview-container {
     display: flex;
     justify-content: space-evenly;
+    margin: 20px 50px;
 }
 
-.portfolio-item {
+.portfolio-item img {
+  max-width: 100%;
+}
 
+.portfolio-preview-container .item-one {
+  margin-right: 30px;
+}
+
+.portfolio-preview-container .item-two {
+  margin-right: 30px;
 }
