@@ -28,8 +28,10 @@ body {
 {
   display: block;
   position: fixed;
-  margin: 20px 50px;
+  margin: 10px 50px;
   right: 0px;
+  background-color: #d8d8d8;
+  padding: 10px;
   /* top: 50px;
   left: 50px; */
   
@@ -167,5 +169,5 @@ body {
 {
   /* transform: none; */
   /* transform: translate(-66%); */
-  transform: translate(-39%);
+  transform: translate(-35%);
 }
