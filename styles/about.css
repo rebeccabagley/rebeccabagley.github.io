@@ -10,7 +10,7 @@
 }
 
 .first-row img {
-    max-width: 500px;
+    max-width: 500px; max-height: 500px;
 }
 
 .first-row .intro-text {

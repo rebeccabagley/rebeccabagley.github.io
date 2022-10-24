@@ -22,17 +22,19 @@
 }
 
 .hero-image-floating-text .floating-text-header {
-  font-family: baskerville;
-  color: #6d0939;
-  font-size: 41px;
+  font-family: 'baskerville';
+  color: #af1b49;
+  font-size: 36px;
   font-weight: bold;
   padding-bottom: 15px;
 }
 
 .hero-image-floating-text .floating-text-subject {
   font-family: 'Open Sans';
+  color: #3a3838;
   line-height: 35px;
-  font-size: 22px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .portfolio-preview-container {
