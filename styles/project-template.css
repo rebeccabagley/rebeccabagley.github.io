@@ -1,0 +1,49 @@
+.project-container {
+    margin: 20px 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.project-details {
+    flex: 1;
+}
+
+.project-details-container {
+    margin-right: 50px;
+}
+
+.project-images {
+    flex: 2;
+}
+
+.project-image-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-details-header {
+    padding-bottom: 15px;
+}
+
+.project-details-header span {
+    font-family: 'baskerville';
+    color: #af1b49;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.project-details-body {
+
+}
+
+.project-details-body span {
+    font-family: 'Open Sans';
+    color: #3a3838;
+    line-height: 27px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.project-image {
+
+}
