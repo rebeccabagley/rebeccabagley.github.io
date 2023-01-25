@@ -7,6 +7,8 @@
 .first-row {
     display: flex;
     margin-bottom: 50px;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
 }
 
 .first-row img {
@@ -16,13 +18,14 @@
 .first-row .intro-text {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 75px;
+    margin-right: 25px;
 }
 
 .intro-text {
     /* max-width: 60%;
     min-width: 50%; */
-    width: 50%;
+    /* width: 50%; */
 }
 
 .intro-text .title {
