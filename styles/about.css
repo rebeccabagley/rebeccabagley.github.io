@@ -76,3 +76,20 @@
 .fourth-row {
     display: flex;
 }
+
+@media screen and (max-width: 1050px) {
+    .first-row {
+        display: flex;
+        margin-bottom: 50px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .first-row .intro-text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+  }
