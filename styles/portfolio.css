@@ -47,3 +47,49 @@
       max-width: 100%;
     }
   }
+
+.about-me-container {
+	display: flex;
+	background-color: #15333F;
+	color: #fff;
+	margin-top: 150px;
+}
+
+.about-me-img-container {
+	flex: 1;
+	margin-left: 70px;
+}
+
+.about-me-box {
+	position: relative;
+    top: -70px;
+    bottom: 70px;
+}
+
+.about-me-img {
+	width: 100%;
+}
+
+.about-me-text-container {
+	flex: 2;
+	justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+.about-me-title {
+    font-family: baskerville;
+    color: #fff;
+    font-size: 38px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.about-me-body {
+    font-family: 'Open Sans';
+    line-height: 35px;
+    font-size: 18px;
+}

@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    background: -webkit-linear-gradient(#feebe2, #ebb3ba);
-    background: -moz-linear-gradient(#feebe2, #ebb3ba);
-    background: linear-gradient(#feebe2, #ebb3ba);
+    background: -webkit-linear-gradient(#F8FDFF, #F8FDFF);
+    background: -moz-linear-gradient(#F8FDFF, #F8FDFF);
+    background: linear-gradient(#F8FDFF, #F8FDFF);
     font-family: sans-serif;
 }
 
@@ -20,8 +20,10 @@ body {
 }
 
 .page-navigation-item {
-    margin-top: 20px;
-    margin-left: 50px;
+    display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	padding-top: 40px;
 }
 
 .logo-img {
@@ -34,7 +36,7 @@ body {
   position: fixed;
   margin: 10px 50px;
   right: 0px;
-  background-color: #feebe2;
+  background-color: #F8FDFF;
   padding: 10px;
   /* top: 50px;
   left: 50px; */
